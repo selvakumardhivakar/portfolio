@@ -13,7 +13,7 @@ body {
   padding: 0;
   background-color: #490b49;
   color: white;
-  font-family: "Courier New", Courier, monospace, "Montez", cursive;
+  font-family: 'Courier New', Courier, monospace, 'Montez', cursive;
 }
 
 a {
@@ -61,7 +61,7 @@ header ul li a {
 }
 
 .hero__content {
-  margin: 4em 0 2em;
+  margin: 4em 0 4em;
 }
 
 .hero__content .subtitle {
@@ -120,7 +120,7 @@ blockquote {
   margin: 0;
   font-size: 0.8em;
   line-height: 1.8em;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 cite {
@@ -133,7 +133,7 @@ cite {
 }
 
 cite::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 5px;
@@ -149,7 +149,7 @@ h2 {
 }
 
 h2::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 5px;
   width: 50px;
@@ -158,23 +158,28 @@ h2::before {
 }
 
 .technologies,
-.social-websites {
+.social-websites,
+.email {
   text-align: center;
   opacity: 0.76;
+  margin-bottom: 3em;
 }
 
 .technologies .tech,
-.social-websites .tech {
+.social-websites .tech,
+.email .tech {
   width: 50px;
 }
 
 .technologies li,
-.social-websites li {
+.social-websites li,
+.email li {
   margin: 2em 0;
 }
 
 .technologies p,
-.social-websites p {
+.social-websites p,
+.email p {
   display: inline;
   font-size: 1.4em;
 }
@@ -189,8 +194,14 @@ h2::before {
   .social-websites {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[2];
-        grid-template-columns: repeat(2, auto);
+    -ms-grid-columns: (auto)[4];
+        grid-template-columns: repeat(4, auto);
+  }
+  .email {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[1];
+        grid-template-columns: repeat(1, auto);
   }
 }
 
@@ -241,7 +252,8 @@ h2::before {
     margin-right: 0;
   }
   .technologies,
-  .social-websites {
+  .social-websites,
+  .email {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -264,7 +276,8 @@ h2::before {
     margin: 0;
   }
   .technologies,
-  .social-websites {
+  .social-websites,
+  .email {
     -ms-grid-columns: (auto)[4];
         grid-template-columns: repeat(4, auto);
   }

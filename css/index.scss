@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montez:wght@300;800&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montez:wght@300;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
   padding: 0;
   background-color: rgb(73, 11, 73);
   color: white;
-  font-family: "Courier New", Courier, monospace, "Montez", cursive;
+  font-family: 'Courier New', Courier, monospace, 'Montez', cursive;
 }
 a {
   color: white;
@@ -36,7 +36,6 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-
   .logo {
     font-weight: bold;
   }
@@ -50,7 +49,7 @@ header {
 }
 
 .hero__content {
-  margin: 4em 0 2em;
+  margin: 4em 0 4em;
   .subtitle {
     margin-bottom: 0;
   }
@@ -101,7 +100,7 @@ blockquote {
   margin: 0;
   font-size: 0.8em;
   line-height: 1.8em;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 cite {
@@ -113,7 +112,7 @@ cite {
   padding-left: 25px;
 }
 cite::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 5px;
@@ -129,7 +128,7 @@ h2 {
   position: relative;
 }
 h2::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 5px;
   width: 50px;
@@ -138,9 +137,11 @@ h2::before {
 }
 
 .technologies,
-.social-websites {
+.social-websites,
+.email {
   text-align: center;
   opacity: 0.76;
+  margin-bottom: 3em;
   .tech {
     width: 50px;
   }
@@ -160,7 +161,11 @@ h2::before {
   }
   .social-websites {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(4, auto);
+  }
+  .email {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
   }
 }
 
@@ -203,7 +208,8 @@ h2::before {
     }
   }
   .technologies,
-  .social-websites {
+  .social-websites,
+  .email {
     display: flex;
     justify-content: space-around;
   }
@@ -219,7 +225,8 @@ h2::before {
     margin: 0;
   }
   .technologies,
-  .social-websites {
+  .social-websites,
+  .email {
     grid-template-columns: repeat(4, auto);
   }
   h1 {
