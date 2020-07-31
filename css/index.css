@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montez:wght@300;800&display=swap");
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,9 +11,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #490b49;
+  background-color: #250029;
   color: white;
-  font-family: 'Courier New', Courier, monospace, 'Montez', cursive;
+  font-family: "Courier New", Courier, monospace, "Montez", cursive;
 }
 
 a {
@@ -28,7 +28,7 @@ ul {
 }
 
 .hero-wrapper {
-  background-color: rgba(238, 88, 34, 0.938);
+  background-color: rgba(1, 58, 55, 0.637);
 }
 
 .wrapper {
@@ -42,8 +42,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 header .logo {
@@ -69,16 +69,16 @@ header ul li a {
 }
 
 .light-purple-wrapper {
-  background-color: #690769;
+  background-color: #350035;
 }
 
 .stats {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(150px, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-top: 2em;
 }
 
@@ -111,7 +111,7 @@ ul.carousal {
 }
 
 ul.carousal li {
-  background-color: #533a6b;
+  background-color: #9b4218;
   padding: 1em;
   margin-bottom: 1em;
 }
@@ -124,16 +124,16 @@ blockquote {
 }
 
 cite {
-  color: #fa4b85;
+  color: #000000;
   font-weight: bold;
-  font-size: 0.8em;
-  font-style: normal;
+  font-size: .8em;
+  font-style: oblique;
   position: relative;
   padding-left: 25px;
 }
 
 cite::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 5px;
@@ -149,7 +149,7 @@ h2 {
 }
 
 h2::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 5px;
   width: 50px;
@@ -188,20 +188,20 @@ h2::before {
   .technologies {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (auto) [3];
+    grid-template-columns: repeat(3, auto);
   }
   .social-websites {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[4];
-        grid-template-columns: repeat(4, auto);
+    -ms-grid-columns: (auto) [4];
+    grid-template-columns: repeat(4, auto);
   }
   .email {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[1];
-        grid-template-columns: repeat(1, auto);
+    -ms-grid-columns: (auto) [1];
+    grid-template-columns: repeat(1, auto);
   }
 }
 
@@ -217,8 +217,8 @@ h2::before {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .arrows {
     display: block;
@@ -231,11 +231,11 @@ h2::before {
   }
   .left {
     -webkit-transform: rotateZ(90deg);
-            transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
   }
   .right {
     -webkit-transform: rotateZ(-90deg);
-            transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
   }
   ul.carousal {
     display: -webkit-box;
@@ -258,7 +258,7 @@ h2::before {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -271,15 +271,15 @@ h2::before {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin: 0;
   }
   .technologies,
   .social-websites,
   .email {
-    -ms-grid-columns: (auto)[4];
-        grid-template-columns: repeat(4, auto);
+    -ms-grid-columns: (auto) [4];
+    grid-template-columns: repeat(4, auto);
   }
   h1 {
     font-size: 2.5em;
@@ -319,12 +319,12 @@ h2::before {
   }
   header {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   header .logo {
     padding-bottom: 0.5em;
@@ -333,8 +333,8 @@ h2::before {
   ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   ul li {
     padding: 0.5em;
