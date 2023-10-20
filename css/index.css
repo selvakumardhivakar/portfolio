@@ -38,6 +38,7 @@ header {
 }
 header .logo {
   font-weight: bold;
+  font-size: 2em;
 }
 header ul {
   display: flex;
@@ -71,13 +72,9 @@ header ul li a {
   font-size: 0.7em;
 }
 
-.arrows {
-  display: none;
-}
-
 .extended-wrapper {
   padding: 0 1.5em 2em;
-  max-width: 1230px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -92,8 +89,7 @@ ul.carousal li {
 
 blockquote {
   margin: 0;
-  font-size: 0.8em;
-  line-height: 1.8em;
+  font-size: 0.9em;
   margin-bottom: 2.5em;
 }
 
@@ -143,6 +139,11 @@ h2::before {
 .email .tech {
   width: 50px;
 }
+.technologies img,
+.social-websites img,
+.email img {
+  width: 50px;
+}
 .technologies li,
 .social-websites li,
 .email li {
@@ -151,7 +152,6 @@ h2::before {
 .technologies p,
 .social-websites p,
 .email p {
-  display: inline;
   font-size: 1.4em;
 }
 
@@ -197,6 +197,7 @@ h2::before {
   }
   ul.carousal {
     display: flex;
+    align-items: center;
     margin-bottom: 0;
   }
   ul.carousal li {
