@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montez:wght@300;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montez:wght@300;800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,9 +9,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(73, 11, 73);
-  color: white;
-  font-family: 'Courier New', Courier, monospace, 'Montez', cursive;
+  background-color: rgb(19, 19, 19);
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace, "Montez", cursive;
 }
 a {
   color: white;
@@ -23,9 +23,9 @@ ul {
   padding: 0;
 }
 
-.hero-wrapper {
-  background-color: rgba(238, 88, 34, 0.938);
-}
+// .hero-wrapper {
+//   background-color: rgba(0, 0, 0, 0.938);
+// }
 
 .wrapper {
   padding: 1.5em;
@@ -55,9 +55,9 @@ header {
   }
 }
 
-.light-purple-wrapper {
-  background-color: rgb(105, 7, 105);
-}
+// .light-purple-wrapper {
+//   background-color: rgb(0, 0, 0);
+// }
 
 .stats {
   display: grid;
@@ -90,7 +90,7 @@ header {
 ul.carousal {
   margin-bottom: 1em;
   li {
-    background-color: rgb(83, 58, 107);
+    background-color: rgb(1, 65, 1);
     padding: 1em;
     margin-bottom: 1em;
   }
@@ -104,7 +104,7 @@ blockquote {
 }
 
 cite {
-  color: rgb(250, 75, 133);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 0.8em;
   font-style: normal;
@@ -112,7 +112,7 @@ cite {
   padding-left: 25px;
 }
 cite::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 5px;
@@ -128,12 +128,12 @@ h2 {
   position: relative;
 }
 h2::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 5px;
   width: 50px;
   top: -0.3em;
-  background-color: rgb(236, 11, 142);
+  background-color: rgb(1, 65, 1);
 }
 
 .technologies,
