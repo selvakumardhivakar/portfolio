@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(41, 41, 41);
   color: whitesmoke;
   font-family: "Courier New", Courier, monospace, "Montez", cursive;
 }
@@ -42,7 +42,7 @@ header {
   justify-content: space-between;
   .logo {
     font-weight: bold;
-    font-size: 2em;
+    // font-size: 2em;
   }
   ul {
     display: flex;
@@ -139,7 +139,7 @@ h2::before {
   height: 5px;
   width: 50px;
   top: -0.3em;
-  background-color: rgb(1, 65, 1);
+  background-color: rgb(42, 1, 65);
 }
 
 .technologies,
@@ -164,6 +164,9 @@ h2::before {
 }
 
 @media (min-width: 500px) {
+  .logo{
+    font-size: 1.5em;
+  }
   .technologies {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -279,6 +282,7 @@ h2::before {
     align-items: center;
     flex-direction: column;
     .logo {
+      font-size: 1em;
       padding-bottom: 0.5em;
       border-bottom: 1px solid white;
     }
