@@ -127,13 +127,13 @@ cite::before {
   border-bottom: 1px solid white;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   font-weight: bold;
 
   position: relative;
 }
-h2::before {
+h2::before, h3::before {
   content: "";
   position: absolute;
   height: 5px;
@@ -249,7 +249,7 @@ h2::before {
   .subtitle {
     font-size: 1.2em;
   }
-  h2 {
+  h2, h3 {
     text-align: left;
     font-size: 2em;
   }
